@@ -26,10 +26,10 @@ const storage = new Storage([
 ]);
 
 const items = storage.getItems();
-console.log(items); // [ "Нанитоиды", "Пролонгер", "Железные жупи", "Антигравитатор" ]
+console.log(items);
 
 storage.addItem("Дроид");
-console.log(storage.items); // [ "Нанитоиды", "Пролонгер", "Железные жупи", "Антигравитатор", "Дроид" ]
+console.log(storage.items);
 
 storage.removeItem("Пролонгер");
-console.log(storage.items); // [ "Нанитоиды", "Железные жупи", "Антигравитатор", "Дроид" ]
+console.log(storage.items);
