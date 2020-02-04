@@ -14,8 +14,18 @@ class User {
   }
 }
 
-const mango = new User({ name: "Mango", age: 2, followers: 20 });
+const mango = new User({
+  name: "Mango",
+  age: 2,
+  followers: 20
+});
+
 mango.getInfo();
 
-const poly = new User({ name: "Poly", age: 3, followers: 17 });
+const poly = new User({
+  name: "Poly",
+  age: 3,
+  followers: 17
+});
+
 poly.getInfo();
